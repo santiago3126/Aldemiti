@@ -12,4 +12,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Aldemiti.Dominio\Aldemiti.Dominio.csproj" />
+    <ProjectReference Include="..\Aldemiti.Persistencia\Aldemiti.Persistencia.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\SENA\\Desktop\\Aldemiti\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj": {}
+    "C:\\Users\\SENA\\Desktop\\ALDEMITI\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj": {}
   },
   "projects": {
-    "C:\\Users\\SENA\\Desktop\\Aldemiti\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj": {
+    "C:\\Users\\SENA\\Desktop\\ALDEMITI\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\Aldemiti\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj",
+        "projectUniqueName": "C:\\Users\\SENA\\Desktop\\ALDEMITI\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj",
         "projectName": "Aldemiti.Persistencia",
-        "projectPath": "C:\\Users\\SENA\\Desktop\\Aldemiti\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj",
+        "projectPath": "C:\\Users\\SENA\\Desktop\\ALDEMITI\\Aldemiti.Persistencia\\Aldemiti.Persistencia.csproj",
         "packagesPath": "C:\\Users\\SENA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\SENA\\Desktop\\Aldemiti\\Aldemiti.Persistencia\\obj\\",
+        "outputPath": "C:\\Users\\SENA\\Desktop\\ALDEMITI\\Aldemiti.Persistencia\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\SENA\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -37,6 +37,22 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
