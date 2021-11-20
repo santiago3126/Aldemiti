@@ -1,4 +1,4 @@
-namespace MiprimaraApp.Dominio
+namespace Aldemiti.Dominio
 {
     public class Inventario
     {
@@ -11,6 +11,6 @@ namespace MiprimaraApp.Dominio
         public int cantidad {get;set;}
         public string codigo{get;set;}
         public string proveedor{get;set;}
-        
+
     }
 }
